@@ -1,11 +1,12 @@
 jQuery(document).ready(function($) {
    $('.wfm-favorites-link a').click(function(e) {
+       var action = $(this).data('action');
        $.ajax({
            type: 'POST',
            url: wfmFavorites.url,
            data: {
                security: wfmFavorites.nonce,
-               action: 'wfm_test',
+               action: 'wfm_' + action,
                postID: wfmFavorites.postID
            },
            beforeSend: function() {
