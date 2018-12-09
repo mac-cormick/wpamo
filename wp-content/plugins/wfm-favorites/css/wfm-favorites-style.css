@@ -1,0 +1,17 @@
+p.wfm-favorites-link a {
+    text-decoration: underline;
+    text-decoration-style: dotted;
+    border: none;
+}
+
+p.wfm-favorites-link a:hover{
+    text-decoration: none;
+}
+
+span.wfm-favorites-hidden {
+    display: none;
+}
+
+.wfm-favorites-hidden img {
+    height: 70px;
+}
