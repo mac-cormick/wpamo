@@ -1,0 +1,16 @@
+.wfm-favorites-hidden img {
+    height: 70px;
+}
+
+.wfm-favorites-del {
+    color: red;
+    font-weight: bold;
+}
+
+.wfm-favorites-del:hover {
+     color: #cc0000;
+}
+
+span.wfm-favorites-hidden {
+    display: none;
+}
