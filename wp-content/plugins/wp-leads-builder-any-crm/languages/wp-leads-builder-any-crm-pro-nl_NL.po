@@ -1,0 +1,724 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: wp-leads-builder-any-crm-pro\n"
+"POT-Creation-Date: 2015-07-10 11:00+0530\n"
+"PO-Revision-Date: 2015-07-10 11:01+0530\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: nl\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.8.2\n"
+"X-Poedit-KeywordsList: _;gettext;gettext_noop;__;_e\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Poedit-SearchPath-0: .\n"
+
+#: includes/Functions.php:418
+#: modules/SyncUser/templates/UserModuleMapping.php:14
+msgid "Username"
+msgstr "Gebruikersnaam"
+
+#: includes/Functions.php:418
+#: modules/SyncUser/templates/UserModuleMapping.php:14
+msgid "Role"
+msgstr "Rol"
+
+#: includes/Functions.php:418 includes/Functions.php:419
+#: modules/SyncUser/templates/UserModuleMapping.php:14
+msgid "Nickname"
+msgstr "Gijnaam"
+
+#: includes/Functions.php:418
+#: modules/SyncUser/templates/UserModuleMapping.php:14
+msgid "E-mail"
+msgstr "E-mail"
+
+#: includes/Functions.php:418
+#: modules/SyncUser/templates/UserModuleMapping.php:14
+msgid "Website"
+msgstr "Website"
+
+#: includes/Functions.php:418
+#: modules/SyncUser/templates/UserModuleMapping.php:14
+msgid "Display name publicly as"
+msgstr "Toon naam publiekelijk als"
+
+#: includes/Functions.php:419
+#: modules/SyncUser/templates/UserModuleMapping.php:14
+msgid "First Name"
+msgstr "Voornaam"
+
+#: includes/Functions.php:419
+#: modules/SyncUser/templates/UserModuleMapping.php:14
+msgid "Last Name"
+msgstr "Achternaam"
+
+#: includes/Functions.php:419
+#: modules/SyncUser/templates/UserModuleMapping.php:14
+msgid "Biographical Info"
+msgstr "Biografische Info"
+
+#: modules/Captcha/actions/actions.php:64
+#: modules/Captcha/templates/view.php:72
+msgid "Recaptcha Public Key"
+msgstr "Recaptcha publieke sleutel"
+
+#: modules/Captcha/actions/actions.php:65
+#: modules/Captcha/templates/view.php:106
+msgid "Recaptcha Private Key"
+msgstr "Recaptcha privaat sleutel"
+
+#: modules/Captcha/actions/actions.php:66
+msgid "Recaptcha"
+msgstr "Recaptcha"
+
+#: modules/Captcha/templates/view.php:26
+msgid "Google reCAPTCHA Settings"
+msgstr "Google reCAPTCHA Instellingen"
+
+#: modules/Captcha/templates/view.php:31
+msgid "Do you need captcha to visible"
+msgstr "Heeft u captcha zichtbaar nodig"
+
+#: modules/Captcha/templates/view.php:42
+#: modules/ManageShortcodes/actions/actions.php:272
+msgid "No"
+msgstr "Nee"
+
+#: modules/Captcha/templates/view.php:50
+#: modules/ManageShortcodes/actions/actions.php:266
+msgid "Yes"
+msgstr "Ja"
+
+#: modules/Captcha/templates/view.php:76
+msgid "Enter your recaptcha public key here"
+msgstr "Vul hier uw recaptcha publieke sleutel."
+
+#: modules/Captcha/templates/view.php:85
+msgid "Enter your recaptcha public key here."
+msgstr "Vul hier uw recaptcha publieke sleutel."
+
+#: modules/Captcha/templates/view.php:110
+msgid "Enter your recaptcha private key here"
+msgstr "Vul uw recaptcha private sleutel hier"
+
+#: modules/Captcha/templates/view.php:119
+msgid "Enter your recaptcha private key here."
+msgstr "Vul uw recaptcha private sleutel hier."
+
+#: modules/Captcha/templates/view.php:132
+#: modules/wpsalesforceproSettings/templates/view.php:239
+#: modules/wpsugarproSettings/templates/view.php:225
+#: modules/wpsuiteproSettings/templates/view.php:222
+#: modules/wptigerproSettings/templates/view.php:225
+#: modules/wptigerproSettings/templates/view.php:226
+#: modules/wpzohoproSettings/templates/view.php:204
+msgid "Save Settings"
+msgstr "Instellingen Opslaan"
+
+#: modules/ManageShortcodes/actions/actions.php:183
+msgid "Crm fields are not yet synchronised"
+msgstr "Crm velden zijn nog niet gesynchroniseerd"
+
+#: modules/ManageShortcodes/actions/actions.php:187
+msgid "Field Name"
+msgstr "Veldnaam"
+
+#: modules/ManageShortcodes/actions/actions.php:187
+msgid "Show Field"
+msgstr "Show gebied"
+
+#: modules/ManageShortcodes/actions/actions.php:187
+msgid "Order"
+msgstr "Bestellen"
+
+#: modules/ManageShortcodes/actions/actions.php:187
+msgid "Mandatory"
+msgstr "Verplicht"
+
+#: modules/ManageShortcodes/actions/actions.php:187
+msgid "Field Label Display"
+msgstr "Veld Label Weergave"
+
+#: modules/ManageShortcodes/actions/actions.php:214
+msgid "This field is mandatory, cannot hide"
+msgstr "Dit veld is verplicht, kan niet verbergen"
+
+#: modules/ManageShortcodes/templates/ManageFields.php:36
+#: modules/ManageShortcodes/templates/ManageFields.php:89
+msgid "Select"
+msgstr "Kiezen"
+
+#: modules/ManageShortcodes/templates/ManageFields.php:134
+msgid "Form Settings"
+msgstr "Formulierinstellingen"
+
+#: modules/ManageShortcodes/templates/ManageFields.php:141
+msgid ""
+"<span><b>Alert:</b><label style='color: red;margin-left:6px;padding-"
+"top:2px;'> Careful on saving the form mode, This form options will be stored "
+"under the form type chosen on 'Form Type' picklist</label></span>"
+msgstr ""
+"<span> <b> Waarschuwing: </ b> <label style = 'color: red; margin-left: 6px; "
+"padding-top: 2px; \"> Voorzichtig over het opslaan van het formulier modus "
+"Dit formulier opties worden onder de opgeslagen soort vorm gekozen op 'Form "
+"Type' keuzelijst </ label> </ span>"
+
+#: modules/ManageShortcodes/templates/ManageFields.php:164
+msgid "Form Type"
+msgstr "Vorm Type"
+
+#: modules/ManageShortcodes/templates/ManageFields.php:165
+msgid "Post"
+msgstr "Post"
+
+#: modules/ManageShortcodes/templates/ManageFields.php:165
+msgid "Widget"
+msgstr "Widget"
+
+#: modules/ManageShortcodes/templates/ManageFields.php:186
+msgid "Form Mode"
+msgstr "Vorm Mode"
+
+#: modules/ManageShortcodes/templates/ManageFields.php:192
+msgid "Form builder is in Edit mode"
+msgstr "Vorm bouwer is in de Edit mode"
+
+#: modules/ManageShortcodes/templates/ManageFields.php:196
+msgid "Temporary form builder mode."
+msgstr "Tijdelijke vorm bouwer mode."
+
+#: modules/ManageShortcodes/templates/ManageFields.php:208
+#: modules/SyncUser/templates/view.php:84
+msgid "Duplicate handling"
+msgstr "Duplicaat behandeling"
+
+#: modules/ManageShortcodes/templates/ManageFields.php:220
+#: modules/SyncUser/templates/view.php:95
+msgid "Skip"
+msgstr "Overslaan"
+
+#: modules/ManageShortcodes/templates/ManageFields.php:234
+#: modules/SyncUser/templates/view.php:108
+msgid "Update"
+msgstr "Update"
+
+#: modules/ManageShortcodes/templates/ManageFields.php:249
+#: modules/SyncUser/templates/view.php:72
+#: modules/SyncUser/templates/view.php:121
+msgid "None"
+msgstr "Geen"
+
+#: modules/ManageShortcodes/templates/ManageFields.php:262
+msgid "Assign"
+msgstr "Toewijzen"
+
+#: modules/ManageShortcodes/templates/ManageFields.php:262
+msgid "to User"
+msgstr "to User"
+
+#: modules/ManageShortcodes/templates/ManageFields.php:290
+msgid "Sorry, submission failed. Kindly try again after some time"
+msgstr "Sorry, onderwerping mislukt. Gelieve opnieuw proberen na enige tijd"
+
+#: modules/ManageShortcodes/templates/ManageFields.php:298
+msgid "Message Displayed For Failed Submission."
+msgstr "Getoond bericht voor mislukte Submission."
+
+#: modules/ManageShortcodes/templates/ManageFields.php:306
+msgid "Success Message Submission"
+msgstr "Succes Bericht Submission"
+
+#: modules/ManageShortcodes/templates/ManageFields.php:317
+msgid "Message Displayed For Successful Submission."
+msgstr "Getoond bericht voor een succesvolle Submission."
+
+#: modules/ManageShortcodes/templates/ManageFields.php:329
+msgid "Enable URL Redirection"
+msgstr "Inschakelen URL Redirection"
+
+#: modules/ManageShortcodes/templates/ManageFields.php:337
+msgid "Page id or Post id"
+msgstr "Pagina id of Post-id"
+
+#: modules/ManageShortcodes/templates/ManageFields.php:345
+msgid "(Give your custom success page url post id to redirect leads)."
+msgstr "(Geef je eigen succes pagina url bericht id om leads redirect)."
+
+#: modules/ManageShortcodes/templates/ManageFields.php:355
+msgid "Enable Google Captcha"
+msgstr "Inschakelen Google Captcha"
+
+#: modules/ManageShortcodes/templates/ManageFields.php:369
+msgid "(Enable google recaptcha feature)."
+msgstr "(Inschakelen google recaptcha functie)."
+
+#: modules/ManageShortcodes/templates/ManageFields.php:380
+msgid "Save Form Settings"
+msgstr "Sla Formulierinstellingen"
+
+#: modules/ManageShortcodes/templates/ManageFields.php:389
+#: modules/ManageShortcodes/templates/ManageFields.php:390
+msgid "Form Options"
+msgstr "Vorm Opties"
+
+#: modules/ManageShortcodes/templates/ManageFields.php:398
+msgid "Field Settings"
+msgstr "Het gebied Instellingen"
+
+#: modules/ManageShortcodes/templates/ManageFields.php:401
+msgid "Bulk Actions"
+msgstr "Bulkacties"
+
+#: modules/ManageShortcodes/templates/ManageFields.php:402
+msgid "Enable Field"
+msgstr "Inschakelen gebied"
+
+#: modules/ManageShortcodes/templates/ManageFields.php:403
+msgid "Disable Field"
+msgstr "uitschakelen gebied"
+
+#: modules/ManageShortcodes/templates/ManageFields.php:404
+msgid "Update Order"
+msgstr "bijwerken Bestel"
+
+#: modules/ManageShortcodes/templates/ManageFields.php:405
+msgid "Enable Mandatory"
+msgstr "Inschakelen Verplicht"
+
+#: modules/ManageShortcodes/templates/ManageFields.php:406
+msgid "Disable Mandatory"
+msgstr "uitschakelen Verplicht"
+
+#: modules/ManageShortcodes/templates/ManageFields.php:407
+msgid "Save Display Label"
+msgstr "sparen weergave label"
+
+#: modules/ManageShortcodes/templates/ManageFields.php:411
+#: modules/ManageShortcodes/templates/ManageFields.php:417
+msgid "Apply"
+msgstr "Solliciteren"
+
+#: modules/ManageShortcodes/templates/ManageFields.php:427
+#: modules/ManageShortcodes/templates/ManageFields.php:586
+#: modules/SyncUser/templates/view.php:165
+#: modules/wpsalesforceproSettings/templates/view.php:264
+#: modules/wpsugarproSettings/templates/view.php:240
+#: modules/wpzohoproSettings/templates/view.php:221
+msgid "Please Wait"
+msgstr "Wacht Alstublieft"
+
+#: modules/ManageShortcodes/templates/view.php:27
+msgid "List of Shortcodes"
+msgstr "Lijst van Shortcodes"
+
+#: modules/ManageShortcodes/templates/view.php:33
+msgid "SL"
+msgstr "Serienummer"
+
+#: modules/ManageShortcodes/templates/view.php:34
+msgid "Shortcodes"
+msgstr "Shortcodes"
+
+#: modules/ManageShortcodes/templates/view.php:35
+msgid "Assignee"
+msgstr "Gevolmachtigde"
+
+#: modules/ManageShortcodes/templates/view.php:36
+msgid "Module"
+msgstr "Module"
+
+#: modules/ManageShortcodes/templates/view.php:37
+msgid "Submits"
+msgstr "Stelt"
+
+#: modules/ManageShortcodes/templates/view.php:38
+#: modules/wpsalesforceproSettings/templates/view.php:187
+#: modules/wpsugarproSettings/templates/view.php:175
+#: modules/wptigerproSettings/templates/view.php:172
+#: modules/wpzohoproSettings/templates/view.php:147
+msgid "Success"
+msgstr "succes"
+
+#: modules/ManageShortcodes/templates/view.php:39
+#: modules/wpsalesforceproSettings/templates/view.php:192
+#: modules/wpsugarproSettings/templates/view.php:180
+#: modules/wptigerproSettings/templates/view.php:177
+#: modules/wpzohoproSettings/templates/view.php:152
+msgid "Failure"
+msgstr "Mislukking"
+
+#: modules/ManageShortcodes/templates/view.php:40
+msgid "Actions"
+msgstr "Aacties"
+
+#: modules/ManageShortcodes/templates/view.php:116
+msgid "Generate Lead Shortcode"
+msgstr "Genereer Lead Shortcode"
+
+#: modules/ManageShortcodes/templates/view.php:118
+msgid "Generate Contact Shortcode"
+msgstr "Genereer Contact Shortcode"
+
+#: modules/SyncUser/actions/actions.php:145
+msgid "Capture Registering User"
+msgstr "Capture registreren Gebruiker"
+
+#: modules/SyncUser/actions/actions.php:146
+msgid "Capture Duplicate users"
+msgstr "Capture Duplicate gebruikers"
+
+#: modules/SyncUser/actions/actions.php:147
+msgid "User Sync Module"
+msgstr "Gebruiker Sync Module"
+
+#: modules/SyncUser/templates/UserModuleMapping.php:34
+msgid "Map"
+msgstr "Kaart"
+
+#: modules/SyncUser/templates/UserModuleMapping.php:34
+#: modules/SyncUser/templates/UserModuleMapping.php:43
+msgid "Fields"
+msgstr "Velden"
+
+#: modules/SyncUser/templates/UserModuleMapping.php:40
+msgid "User Fields"
+msgstr "Gebruiker Fields"
+
+#: modules/SyncUser/templates/view.php:15
+msgid "Capture WordPress users"
+msgstr "Capture WordPress gebruikers"
+
+#: modules/SyncUser/templates/view.php:35
+msgid "Choose Module to Sync"
+msgstr "Kies Module te synchroniseren"
+
+#: modules/SyncUser/templates/view.php:46
+msgid "Leads"
+msgstr "Leiden"
+
+#: modules/SyncUser/templates/view.php:59
+msgid "Contacts"
+msgstr "Contacten"
+
+#: modules/SyncUser/templates/view.php:134
+msgid "Save Auto Sync Settings"
+msgstr "Sparen Auto Sync Instellingen"
+
+#: modules/SyncUser/templates/view.php:139
+msgid "Manual Sync (Existing users)"
+msgstr "Handboek Sync (Bestaande gebruikers)"
+
+#: modules/SyncUser/templates/view.php:147
+msgid "User Lead Module Mapping"
+msgstr "Gebruiker Leiden Module indeling"
+
+#: modules/SyncUser/templates/view.php:155
+msgid "User Contact Module Mapping"
+msgstr "Gebruikers Contacten Module indeling"
+
+#: modules/wpsalesforceproSettings/actions/actions.php:37
+#: modules/wpsalesforceproSettings/templates/view.php:62
+msgid "Consumer Key"
+msgstr "Consument Kleutel"
+
+#: modules/wpsalesforceproSettings/actions/actions.php:38
+#: modules/wpsalesforceproSettings/templates/view.php:82
+msgid "Consumer Secret"
+msgstr "Consument Geheim"
+
+#: modules/wpsalesforceproSettings/actions/actions.php:39
+#: modules/wpsalesforceproSettings/templates/view.php:102
+msgid "Callback URL"
+msgstr "Terugbellen URL"
+
+#: modules/wpsalesforceproSettings/actions/actions.php:42
+#: modules/wpsugarproSettings/actions/actions.php:42
+#: modules/wpsuiteproSettings/actions/actions.php:33
+#: modules/wptigerproSettings/actions/actions.php:46
+#: modules/wpzohoproSettings/actions/actions.php:43
+msgid "Smack Email"
+msgstr "Smack Email"
+
+#: modules/wpsalesforceproSettings/actions/actions.php:43
+#: modules/wpsugarproSettings/actions/actions.php:43
+#: modules/wpsuiteproSettings/actions/actions.php:34
+#: modules/wptigerproSettings/actions/actions.php:47
+#: modules/wpzohoproSettings/actions/actions.php:44
+msgid "Email id"
+msgstr "E-mail identiteit"
+
+#: modules/wpsalesforceproSettings/actions/actions.php:44
+#: modules/wpsugarproSettings/actions/actions.php:44
+#: modules/wpsuiteproSettings/actions/actions.php:35
+#: modules/wptigerproSettings/actions/actions.php:48
+#: modules/wpzohoproSettings/actions/actions.php:45
+msgid "Emailcondition"
+msgstr "Email conditie"
+
+#: modules/wpsalesforceproSettings/actions/actions.php:45
+#: modules/wpsalesforceproSettings/templates/view.php:206
+#: modules/wpsugarproSettings/actions/actions.php:45
+#: modules/wpsugarproSettings/templates/view.php:192
+#: modules/wpsuiteproSettings/actions/actions.php:36
+#: modules/wptigerproSettings/actions/actions.php:49
+#: modules/wptigerproSettings/templates/view.php:188
+#: modules/wpzohoproSettings/actions/actions.php:46
+#: modules/wpzohoproSettings/templates/view.php:166
+msgid "Debug Mode"
+msgstr "Debug Mode"
+
+#: modules/wpsalesforceproSettings/templates/view.php:28
+msgid "Salesforce CRM Settings"
+msgstr "Salesforce CRM Instellingen"
+
+#: modules/wpsalesforceproSettings/templates/view.php:37
+#: modules/wpsugarproSettings/templates/view.php:20
+#: modules/wptigerproSettings/templates/view.php:21
+#: modules/wpzohoproSettings/templates/view.php:17
+msgid "Select Plugin"
+msgstr "Selecteer Plugin"
+
+#: modules/wpsalesforceproSettings/templates/view.php:51
+#: modules/wpsugarproSettings/templates/view.php:33
+#: modules/wptigerproSettings/templates/view.php:34
+#: modules/wpzohoproSettings/templates/view.php:30
+msgid "Choose your CRM."
+msgstr "Kies uw CRM."
+
+#: modules/wpsalesforceproSettings/templates/view.php:74
+msgid "This the key generated in API under consumer key."
+msgstr "Dat de sleutel die API onder klantsleutel."
+
+#: modules/wpsalesforceproSettings/templates/view.php:94
+msgid "This the secret code generated in API under consumer secret."
+msgstr "Dit is de geheime code gegenereerd in API onder consumenten geheim."
+
+#: modules/wpsalesforceproSettings/templates/view.php:113
+msgid "In most cases the url of this settings page is used."
+msgstr ""
+"In de meeste gevallen is de url van deze pagina-instellingen wordt gebruikt."
+
+#: modules/wpsalesforceproSettings/templates/view.php:141
+#: modules/wpsugarproSettings/templates/view.php:129
+#: modules/wptigerproSettings/templates/view.php:125
+#: modules/wpzohoproSettings/templates/view.php:99
+msgid "Email Notification"
+msgstr "e-mail kennisgeving"
+
+#: modules/wpsalesforceproSettings/templates/view.php:145
+#: modules/wpsugarproSettings/templates/view.php:132
+#: modules/wptigerproSettings/templates/view.php:129
+#: modules/wpzohoproSettings/templates/view.php:103
+msgid "Email All Captured Data"
+msgstr "E-mail alle vastgelegde gegevens"
+
+#: modules/wpsalesforceproSettings/templates/view.php:159
+#: modules/wpsugarproSettings/templates/view.php:146
+#: modules/wptigerproSettings/templates/view.php:143
+#: modules/wpzohoproSettings/templates/view.php:117
+msgid "(Get emails for each form data feed with details)."
+msgstr "(Ontvang e-mails voor elke vorm data feed met details)."
+
+#: modules/wpsalesforceproSettings/templates/view.php:167
+#: modules/wpsugarproSettings/templates/view.php:154
+#: modules/wptigerproSettings/templates/view.php:152
+msgid "Email Id"
+msgstr "E-Mail Identiteit"
+
+#: modules/wpsalesforceproSettings/templates/view.php:178
+#: modules/wpsugarproSettings/templates/view.php:165
+#: modules/wptigerproSettings/templates/view.php:163
+#: modules/wpzohoproSettings/templates/view.php:136
+msgid ""
+"(by default admin enable to get mail alerts, you can add one more email "
+"here)."
+msgstr ""
+"(standaard admin in staat om e-mail waarschuwingen te krijgen, kunt u nog "
+"een e-mail hier toe te voegen)."
+
+#: modules/wpsalesforceproSettings/templates/view.php:199
+#: modules/wpsugarproSettings/templates/view.php:186
+#: modules/wptigerproSettings/templates/view.php:182
+#: modules/wpzohoproSettings/templates/view.php:158
+msgid "Both"
+msgstr "Beide"
+
+#: modules/wpsalesforceproSettings/templates/view.php:212
+#: modules/wpsugarproSettings/templates/view.php:196
+#: modules/wptigerproSettings/templates/view.php:193
+#: modules/wpzohoproSettings/templates/view.php:171
+msgid "Enable Debug Mode"
+msgstr "inschakelen Modus Debug"
+
+#: modules/wpsalesforceproSettings/templates/view.php:226
+#: modules/wpsugarproSettings/templates/view.php:210
+#: modules/wptigerproSettings/templates/view.php:207
+#: modules/wpzohoproSettings/templates/view.php:185
+msgid ""
+"(Debug Mode is No to get Error_reporting is zero and also ini_set is Off)."
+msgstr ""
+"(Debug Mode is geen te krijgen error_reporting nul is en ook ini_set is Off)."
+
+#: modules/wpsalesforceproSettings/templates/view.php:248
+msgid "Authenticate"
+msgstr "Waarmerken"
+
+#: modules/wpsalesforceproSettings/templates/view.php:250
+#: modules/wpsugarproSettings/templates/view.php:226
+#: modules/wptigerproSettings/templates/view.php:228
+#: modules/wpzohoproSettings/templates/view.php:206
+msgid "Fetch Lead Fields"
+msgstr "Halen leiden Velden"
+
+#: modules/wpsalesforceproSettings/templates/view.php:252
+#: modules/wpsugarproSettings/templates/view.php:229
+#: modules/wptigerproSettings/templates/view.php:230
+#: modules/wpzohoproSettings/templates/view.php:209
+msgid "Fetch Contact Fields"
+msgstr "Halen contact Velden"
+
+#: modules/wpsalesforceproSettings/templates/view.php:254
+#: modules/wpsugarproSettings/templates/view.php:231
+#: modules/wptigerproSettings/templates/view.php:232
+#: modules/wpzohoproSettings/templates/view.php:211
+msgid "Fetch CRM Users"
+msgstr "Fetch CRM Gebruikers"
+
+#: modules/wpsalesforceproSettings/templates/view.php:259
+msgid ""
+"Note : The included API add-on supports only Enterprise edition, Unlimited "
+"edition and Developer edition of sales force."
+msgstr ""
+"Opmerking: De meegeleverde API add-on ondersteunt alleen Enterprise-editie, "
+"Unlimited Edition en Developer editie van sales force."
+
+#: modules/wpsugarproSettings/actions/actions.php:37
+#: modules/wpsugarproSettings/templates/view.php:44
+msgid "Sugar Host Address"
+msgstr "Sugar gastheer adres"
+
+#: modules/wpsugarproSettings/actions/actions.php:38
+#: modules/wpsugarproSettings/templates/view.php:68
+msgid "Sugar Username"
+msgstr "Sugar Gebruikersnaam"
+
+#: modules/wpsugarproSettings/actions/actions.php:39
+#: modules/wpsugarproSettings/templates/view.php:88
+msgid "Sugar Password"
+msgstr "Sugar wachtwoord"
+
+#: modules/wpsugarproSettings/templates/view.php:10
+msgid "Sugar CRM Settings"
+msgstr "Sugar CRM Instellingen"
+
+#: modules/wpsugarproSettings/templates/view.php:57
+#: modules/wptigerproSettings/templates/view.php:58
+msgid "This is the full URL path to access your crm via browser."
+msgstr "Dit is de volledige URL-pad voor toegang tot uw CRM via de browser."
+
+#: modules/wpsugarproSettings/templates/view.php:80
+#: modules/wptigerproSettings/templates/view.php:77
+msgid ""
+"This is CRM admin in general, but you can also use other users with admin "
+"privilege."
+msgstr ""
+"Dit is CRM admin in het algemeen, maar u kunt ook gebruik maken van andere "
+"gebruikers met een admin privilege."
+
+#: modules/wpsugarproSettings/templates/view.php:99
+#: modules/wpzohoproSettings/templates/view.php:71
+msgid "Password for the username as given in CRM username as above."
+msgstr ""
+"Wachtwoord voor de gebruikersnaam zoals vermeld in CRM gebruikersnaam zoals "
+"hierboven."
+
+#: modules/wpsuiteproSettings/actions/actions.php:28
+msgid "Suite Host Address"
+msgstr "Suite gastheer adres"
+
+#: modules/wpsuiteproSettings/actions/actions.php:29
+msgid "Suite Username"
+msgstr "Suite Gebruikersnaam"
+
+#: modules/wpsuiteproSettings/actions/actions.php:30
+msgid "Suite Password"
+msgstr "Suite wachtwoord"
+
+#: modules/wpsuiteproSettings/actions/actions.php:32
+msgid "User Capture"
+msgstr "Gebruiker Capture"
+
+#: modules/wptigerproSettings/actions/actions.php:41
+msgid "Vtiger Url"
+msgstr "vtiger Url"
+
+#: modules/wptigerproSettings/actions/actions.php:42
+msgid "Vtiger User Name"
+msgstr "Vtiger Gebruikersnaam"
+
+#: modules/wptigerproSettings/actions/actions.php:43
+#: modules/wptigerproSettings/templates/view.php:85
+msgid "Vtiger Access Key"
+msgstr "Vtiger toegang sleutel"
+
+#: modules/wptigerproSettings/templates/view.php:11
+msgid "VTiger CRM Settings"
+msgstr "Vtiger CRM Instellingen"
+
+#: modules/wptigerproSettings/templates/view.php:46
+msgid "Vtiger Host Address"
+msgstr "Vtiger gastheer adres"
+
+#: modules/wptigerproSettings/templates/view.php:66
+msgid "Vtiger Username"
+msgstr "Vtiger Gebruikersnaam"
+
+#: modules/wptigerproSettings/templates/view.php:96
+msgid ""
+"Access key taken from My Preferences for the username as given in CRM "
+"username as above."
+msgstr ""
+"Access key genomen uit Mijn Voorkeuren voor de gebruikersnaam zoals vermeld "
+"in CRM gebruikersnaam zoals hierboven."
+
+#: modules/wptigerproSettings/templates/view.php:260
+msgid "Please Wait..."
+msgstr "Wacht Alstublieft ..."
+
+#: modules/wpzohoproSettings/actions/actions.php:39
+#: modules/wpzohoproSettings/templates/view.php:41
+msgid "Zoho Username"
+msgstr "Zoho Gebruikersnaam"
+
+#: modules/wpzohoproSettings/actions/actions.php:40
+#: modules/wpzohoproSettings/templates/view.php:60
+msgid "Zoho Password"
+msgstr "Zoho wachtwoord"
+
+#: modules/wpzohoproSettings/templates/view.php:7
+msgid "Zoho CRM Settings"
+msgstr "Zoho CRM Instellingen"
+
+#: modules/wpzohoproSettings/templates/view.php:52
+msgid "This is email id used to login with zoho account."
+msgstr "Dit is e-id wordt gebruikt om in te loggen met Zoho rekening."
+
+#: templates/menu.php:17
+msgid "Manage ShortCodes"
+msgstr "Beheer shortcodes"
+
+#: templates/menu.php:23
+msgid "Sync WP Users"
+msgstr "Sync WP Gebruikers"
+
+#: templates/menu.php:27
+msgid "Captcha Settings"
+msgstr "Captcha Instellingen"
+
+#: templates/menu.php:30
+msgid "Settings"
+msgstr "Instellingen"

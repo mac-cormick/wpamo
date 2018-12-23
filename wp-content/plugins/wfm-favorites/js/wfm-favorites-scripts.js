@@ -11,12 +11,15 @@ jQuery(document).ready(function($) {
            },
            beforeSend: function() {
                $('.wfm-favorites-link a').fadeOut(300, function() {
-                    $('.wfm-favorites-hidden').fadeIn();
+                    $('.wfm-favorites-link .wfm-favorites-hidden').fadeIn();
                });
            },
            success: function(res) {
                $('.wfm-favorites-hidden').fadeOut(300, function() {
-                   $('.wfm-favorites-link').html(res);
+                   $('.wfm-favorites-link .wfm-favorites-link').html(res);
+                   if (action === 'del') {
+                       $('.widget_wfm-favorites-widget').find('li.cat-item-' + wfmFavorites.postID).remove();
+                   }
                });
            },
            error: function() {

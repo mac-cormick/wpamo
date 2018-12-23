@@ -36,7 +36,7 @@ function wfm_favorites_admin_scripts($hook) {
 }
 
 function wfm_favorites_scripts() {
-	if (!is_single() || !is_user_logged_in()) return;
+	if (!is_user_logged_in()) return;
 
 	wp_enqueue_script(
 		'wfm-favorites-scripts',
@@ -136,7 +136,7 @@ function wfm_show_dashboard_widget() {
 
 	echo '<ul>';
 	foreach ($favorites as $favorite) {
-		echo '<li>
+		echo '<li class="cat-item cat-item-' . $favorite . '">
 				<a href="' . get_permalink($favorite) . '" target="_blank">' . get_the_title($favorite) . '</a>
 				<span><a href="#" data-post="' . $favorite . '" class="wfm-favorites-del"> &#10008;</a></span>
 				<span class="wfm-favorites-hidden"><img src="' . $loader_img_path . '" alt=""></span>

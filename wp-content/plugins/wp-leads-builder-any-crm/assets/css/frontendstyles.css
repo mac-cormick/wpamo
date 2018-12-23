@@ -1,0 +1,13 @@
+span#emailerror {
+        color: red;
+        text-transform: capitalize;
+}
+
+.smack_field_error {
+        color: red;
+}
+
+.smack_widget_textbox , .smack_widget_picklist , .smack_widget_multipicklist , .smack_widget_textbox_date_picker , .smack_post_fields {
+	  width:100%;
+}
+

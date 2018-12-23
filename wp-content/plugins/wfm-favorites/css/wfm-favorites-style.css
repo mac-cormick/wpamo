@@ -15,3 +15,16 @@ span.wfm-favorites-hidden {
 .wfm-favorites-hidden img {
     height: 70px;
 }
+
+.widget_wfm-favorites-widget {
+    list-style: none;
+}
+
+.wfm-favorites-del {
+    color: red;
+    font-weight: bold;
+}
+
+.wfm-favorites-del:hover {
+    color: #cc0000;
+}

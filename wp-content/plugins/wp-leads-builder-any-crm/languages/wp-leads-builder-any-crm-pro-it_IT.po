@@ -1,0 +1,731 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: wp-leads-builder-any-crm-pro\n"
+"POT-Creation-Date: 2015-07-10 10:57+0530\n"
+"PO-Revision-Date: 2015-07-10 10:59+0530\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: it\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.8.2\n"
+"X-Poedit-KeywordsList: _;gettext;gettext_noop;__;_e\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Poedit-SearchPath-0: .\n"
+
+#: includes/Functions.php:418
+#: modules/SyncUser/templates/UserModuleMapping.php:14
+msgid "Username"
+msgstr "Nome utente"
+
+#: includes/Functions.php:418
+#: modules/SyncUser/templates/UserModuleMapping.php:14
+msgid "Role"
+msgstr "Ruolo"
+
+#: includes/Functions.php:418 includes/Functions.php:419
+#: modules/SyncUser/templates/UserModuleMapping.php:14
+msgid "Nickname"
+msgstr "Soprannome"
+
+#: includes/Functions.php:418
+#: modules/SyncUser/templates/UserModuleMapping.php:14
+msgid "E-mail"
+msgstr "E-mail"
+
+#: includes/Functions.php:418
+#: modules/SyncUser/templates/UserModuleMapping.php:14
+msgid "Website"
+msgstr "Sito web"
+
+#: includes/Functions.php:418
+#: modules/SyncUser/templates/UserModuleMapping.php:14
+msgid "Display name publicly as"
+msgstr "Nome visualizzato pubblicamente come"
+
+#: includes/Functions.php:419
+#: modules/SyncUser/templates/UserModuleMapping.php:14
+msgid "First Name"
+msgstr "Nome"
+
+#: includes/Functions.php:419
+#: modules/SyncUser/templates/UserModuleMapping.php:14
+msgid "Last Name"
+msgstr "Cognome"
+
+#: includes/Functions.php:419
+#: modules/SyncUser/templates/UserModuleMapping.php:14
+msgid "Biographical Info"
+msgstr "Biografia Info"
+
+#: modules/Captcha/actions/actions.php:64
+#: modules/Captcha/templates/view.php:72
+msgid "Recaptcha Public Key"
+msgstr "Recaptcha chiave pubblica"
+
+#: modules/Captcha/actions/actions.php:65
+#: modules/Captcha/templates/view.php:106
+msgid "Recaptcha Private Key"
+msgstr "Recaptcha chiave privata"
+
+#: modules/Captcha/actions/actions.php:66
+msgid "Recaptcha"
+msgstr "Recaptcha"
+
+#: modules/Captcha/templates/view.php:26
+msgid "Google reCAPTCHA Settings"
+msgstr "Impostazioni reCAPTCHA Google"
+
+#: modules/Captcha/templates/view.php:31
+msgid "Do you need captcha to visible"
+msgstr "Avete bisogno di captcha visibile"
+
+#: modules/Captcha/templates/view.php:42
+#: modules/ManageShortcodes/actions/actions.php:272
+msgid "No"
+msgstr "No"
+
+#: modules/Captcha/templates/view.php:50
+#: modules/ManageShortcodes/actions/actions.php:266
+msgid "Yes"
+msgstr "sì"
+
+#: modules/Captcha/templates/view.php:76
+msgid "Enter your recaptcha public key here"
+msgstr "Inserire la propria chiave pubblica Recaptcha qui"
+
+#: modules/Captcha/templates/view.php:85
+msgid "Enter your recaptcha public key here."
+msgstr "Inserire la propria chiave pubblica Recaptcha qui."
+
+#: modules/Captcha/templates/view.php:110
+msgid "Enter your recaptcha private key here"
+msgstr "Inserire la propria chiave privata Recaptcha qui"
+
+#: modules/Captcha/templates/view.php:119
+msgid "Enter your recaptcha private key here."
+msgstr "Inserire la propria chiave privata Recaptcha qui."
+
+#: modules/Captcha/templates/view.php:132
+#: modules/wpsalesforceproSettings/templates/view.php:239
+#: modules/wpsugarproSettings/templates/view.php:225
+#: modules/wpsuiteproSettings/templates/view.php:222
+#: modules/wptigerproSettings/templates/view.php:225
+#: modules/wptigerproSettings/templates/view.php:226
+#: modules/wpzohoproSettings/templates/view.php:204
+msgid "Save Settings"
+msgstr "Salva Impostazioni"
+
+#: modules/ManageShortcodes/actions/actions.php:183
+msgid "Crm fields are not yet synchronised"
+msgstr "Campi CRM non sono ancora sincronizzati"
+
+#: modules/ManageShortcodes/actions/actions.php:187
+msgid "Field Name"
+msgstr "Nome campo"
+
+#: modules/ManageShortcodes/actions/actions.php:187
+msgid "Show Field"
+msgstr "Mostra campo"
+
+#: modules/ManageShortcodes/actions/actions.php:187
+msgid "Order"
+msgstr "Ordine"
+
+#: modules/ManageShortcodes/actions/actions.php:187
+msgid "Mandatory"
+msgstr "Obbligatorio"
+
+#: modules/ManageShortcodes/actions/actions.php:187
+msgid "Field Label Display"
+msgstr "Campo Label display"
+
+#: modules/ManageShortcodes/actions/actions.php:214
+msgid "This field is mandatory, cannot hide"
+msgstr "Questo campo è obbligatorio, non può nascondere"
+
+#: modules/ManageShortcodes/templates/ManageFields.php:36
+#: modules/ManageShortcodes/templates/ManageFields.php:89
+msgid "Select"
+msgstr "Selezionare"
+
+#: modules/ManageShortcodes/templates/ManageFields.php:134
+msgid "Form Settings"
+msgstr "Impostazioni modulo"
+
+#: modules/ManageShortcodes/templates/ManageFields.php:141
+msgid ""
+"<span><b>Alert:</b><label style='color: red;margin-left:6px;padding-"
+"top:2px;'> Careful on saving the form mode, This form options will be stored "
+"under the form type chosen on 'Form Type' picklist</label></span>"
+msgstr ""
+"<span> <b> Avviso: <style label = 'color: red; margin-left: 6px; padding-"
+"top: 2px;'> </ b> attento a salvare la modalità di modulo, Questa opzione di "
+"modulo sarà memorizzato sotto la tipo modulo scelto in 'Tipo modulo' elenco "
+"di selezione </ label> </ span>"
+
+#: modules/ManageShortcodes/templates/ManageFields.php:164
+msgid "Form Type"
+msgstr "Tipo di modulo"
+
+#: modules/ManageShortcodes/templates/ManageFields.php:165
+msgid "Post"
+msgstr "Tipo di modulo"
+
+#: modules/ManageShortcodes/templates/ManageFields.php:165
+msgid "Widget"
+msgstr "Widget"
+
+#: modules/ManageShortcodes/templates/ManageFields.php:186
+msgid "Form Mode"
+msgstr "Modalità Form"
+
+#: modules/ManageShortcodes/templates/ManageFields.php:192
+msgid "Form builder is in Edit mode"
+msgstr "Builder forma è in modalità Modifica"
+
+#: modules/ManageShortcodes/templates/ManageFields.php:196
+msgid "Temporary form builder mode."
+msgstr "Modalità modulo costruttore temporanea."
+
+#: modules/ManageShortcodes/templates/ManageFields.php:208
+#: modules/SyncUser/templates/view.php:84
+msgid "Duplicate handling"
+msgstr "Gestione Duplicate"
+
+#: modules/ManageShortcodes/templates/ManageFields.php:220
+#: modules/SyncUser/templates/view.php:95
+msgid "Skip"
+msgstr "Saltare"
+
+#: modules/ManageShortcodes/templates/ManageFields.php:234
+#: modules/SyncUser/templates/view.php:108
+msgid "Update"
+msgstr "Aggiornare"
+
+#: modules/ManageShortcodes/templates/ManageFields.php:249
+#: modules/SyncUser/templates/view.php:72
+#: modules/SyncUser/templates/view.php:121
+msgid "None"
+msgstr "Nnessuno"
+
+#: modules/ManageShortcodes/templates/ManageFields.php:262
+msgid "Assign"
+msgstr "Assegnare"
+
+#: modules/ManageShortcodes/templates/ManageFields.php:262
+msgid "to User"
+msgstr "A utente"
+
+#: modules/ManageShortcodes/templates/ManageFields.php:290
+msgid "Sorry, submission failed. Kindly try again after some time"
+msgstr ""
+"Siamo spiacenti, la presentazione non è riuscita. Si prega di riprovare dopo "
+"qualche tempo"
+
+#: modules/ManageShortcodes/templates/ManageFields.php:298
+msgid "Message Displayed For Failed Submission."
+msgstr "Messaggio visualizzato per la presentazione non riuscita."
+
+#: modules/ManageShortcodes/templates/ManageFields.php:306
+msgid "Success Message Submission"
+msgstr "Successo Messaggio Submission"
+
+#: modules/ManageShortcodes/templates/ManageFields.php:317
+msgid "Message Displayed For Successful Submission."
+msgstr "Messaggio visualizzato per la presentazione di successo."
+
+#: modules/ManageShortcodes/templates/ManageFields.php:329
+msgid "Enable URL Redirection"
+msgstr "Abilita reindirizzamento URL"
+
+#: modules/ManageShortcodes/templates/ManageFields.php:337
+msgid "Page id or Post id"
+msgstr "Pagina id o Post id"
+
+#: modules/ManageShortcodes/templates/ManageFields.php:345
+msgid "(Give your custom success page url post id to redirect leads)."
+msgstr ""
+"(Lascia la tua pagina di successo url posto id personalizzato per "
+"reindirizzare i cavi)."
+
+#: modules/ManageShortcodes/templates/ManageFields.php:355
+msgid "Enable Google Captcha"
+msgstr "Abilita Google Captcha"
+
+#: modules/ManageShortcodes/templates/ManageFields.php:369
+msgid "(Enable google recaptcha feature)."
+msgstr "(Abilita funzione reCAPTCHA google)."
+
+#: modules/ManageShortcodes/templates/ManageFields.php:380
+msgid "Save Form Settings"
+msgstr "Salva Impostazioni modulo"
+
+#: modules/ManageShortcodes/templates/ManageFields.php:389
+#: modules/ManageShortcodes/templates/ManageFields.php:390
+msgid "Form Options"
+msgstr "Opzioni modulo"
+
+#: modules/ManageShortcodes/templates/ManageFields.php:398
+msgid "Field Settings"
+msgstr "Impostazioni campo"
+
+#: modules/ManageShortcodes/templates/ManageFields.php:401
+msgid "Bulk Actions"
+msgstr "Azioni In Blocco"
+
+#: modules/ManageShortcodes/templates/ManageFields.php:402
+msgid "Enable Field"
+msgstr "Abilita campo"
+
+#: modules/ManageShortcodes/templates/ManageFields.php:403
+msgid "Disable Field"
+msgstr "Disabilitare campo"
+
+#: modules/ManageShortcodes/templates/ManageFields.php:404
+msgid "Update Order"
+msgstr "Aggiornamento ordine"
+
+#: modules/ManageShortcodes/templates/ManageFields.php:405
+msgid "Enable Mandatory"
+msgstr "Abilita obbligatorio"
+
+#: modules/ManageShortcodes/templates/ManageFields.php:406
+msgid "Disable Mandatory"
+msgstr "Disabilita obbligatorio"
+
+#: modules/ManageShortcodes/templates/ManageFields.php:407
+msgid "Save Display Label"
+msgstr "Salva Etichetta visualizzata"
+
+#: modules/ManageShortcodes/templates/ManageFields.php:411
+#: modules/ManageShortcodes/templates/ManageFields.php:417
+msgid "Apply"
+msgstr "Applicare"
+
+#: modules/ManageShortcodes/templates/ManageFields.php:427
+#: modules/ManageShortcodes/templates/ManageFields.php:586
+#: modules/SyncUser/templates/view.php:165
+#: modules/wpsalesforceproSettings/templates/view.php:264
+#: modules/wpsugarproSettings/templates/view.php:240
+#: modules/wpzohoproSettings/templates/view.php:221
+msgid "Please Wait"
+msgstr "Attendere Prego"
+
+#: modules/ManageShortcodes/templates/view.php:27
+msgid "List of Shortcodes"
+msgstr "Elenco dei Shortcodes"
+
+#: modules/ManageShortcodes/templates/view.php:33
+msgid "SL"
+msgstr "Numero di serie"
+
+#: modules/ManageShortcodes/templates/view.php:34
+msgid "Shortcodes"
+msgstr "Shortcodes"
+
+#: modules/ManageShortcodes/templates/view.php:35
+msgid "Assignee"
+msgstr "Assegnatario"
+
+#: modules/ManageShortcodes/templates/view.php:36
+msgid "Module"
+msgstr "Modulo"
+
+#: modules/ManageShortcodes/templates/view.php:37
+msgid "Submits"
+msgstr "Sottopone"
+
+#: modules/ManageShortcodes/templates/view.php:38
+#: modules/wpsalesforceproSettings/templates/view.php:187
+#: modules/wpsugarproSettings/templates/view.php:175
+#: modules/wptigerproSettings/templates/view.php:172
+#: modules/wpzohoproSettings/templates/view.php:147
+msgid "Success"
+msgstr "Successo"
+
+#: modules/ManageShortcodes/templates/view.php:39
+#: modules/wpsalesforceproSettings/templates/view.php:192
+#: modules/wpsugarproSettings/templates/view.php:180
+#: modules/wptigerproSettings/templates/view.php:177
+#: modules/wpzohoproSettings/templates/view.php:152
+msgid "Failure"
+msgstr "Fallimento"
+
+#: modules/ManageShortcodes/templates/view.php:40
+msgid "Actions"
+msgstr "Azioni"
+
+#: modules/ManageShortcodes/templates/view.php:116
+msgid "Generate Lead Shortcode"
+msgstr "Genera Shortcode piombo"
+
+#: modules/ManageShortcodes/templates/view.php:118
+msgid "Generate Contact Shortcode"
+msgstr "Genera Contatto Shortcode"
+
+#: modules/SyncUser/actions/actions.php:145
+msgid "Capture Registering User"
+msgstr "Capture Registrazione utente"
+
+#: modules/SyncUser/actions/actions.php:146
+msgid "Capture Duplicate users"
+msgstr "Cattura utenti duplicati"
+
+#: modules/SyncUser/actions/actions.php:147
+msgid "User Sync Module"
+msgstr "Utente Sync Modulo"
+
+#: modules/SyncUser/templates/UserModuleMapping.php:34
+msgid "Map"
+msgstr "Carta"
+
+#: modules/SyncUser/templates/UserModuleMapping.php:34
+#: modules/SyncUser/templates/UserModuleMapping.php:43
+msgid "Fields"
+msgstr "Campi"
+
+#: modules/SyncUser/templates/UserModuleMapping.php:40
+msgid "User Fields"
+msgstr "Campi utente"
+
+#: modules/SyncUser/templates/view.php:15
+msgid "Capture WordPress users"
+msgstr "Catturare gli utenti di WordPress"
+
+#: modules/SyncUser/templates/view.php:35
+msgid "Choose Module to Sync"
+msgstr "Scegliere Modulo per sincronizzare"
+
+#: modules/SyncUser/templates/view.php:46
+msgid "Leads"
+msgstr "Conduce"
+
+#: modules/SyncUser/templates/view.php:59
+msgid "Contacts"
+msgstr "Contatti"
+
+#: modules/SyncUser/templates/view.php:134
+msgid "Save Auto Sync Settings"
+msgstr "Salvataggio automatico delle impostazioni di sincronizzazione"
+
+#: modules/SyncUser/templates/view.php:139
+msgid "Manual Sync (Existing users)"
+msgstr "Sincronizzazione manuale (utenti esistenti)"
+
+#: modules/SyncUser/templates/view.php:147
+msgid "User Lead Module Mapping"
+msgstr "Mapping Modulo Piombo utente"
+
+#: modules/SyncUser/templates/view.php:155
+msgid "User Contact Module Mapping"
+msgstr "User Mapping Contatto Modulo"
+
+#: modules/wpsalesforceproSettings/actions/actions.php:37
+#: modules/wpsalesforceproSettings/templates/view.php:62
+msgid "Consumer Key"
+msgstr "Key consumatori"
+
+#: modules/wpsalesforceproSettings/actions/actions.php:38
+#: modules/wpsalesforceproSettings/templates/view.php:82
+msgid "Consumer Secret"
+msgstr "Segreto dei consumatori"
+
+#: modules/wpsalesforceproSettings/actions/actions.php:39
+#: modules/wpsalesforceproSettings/templates/view.php:102
+msgid "Callback URL"
+msgstr "URL richiamata"
+
+#: modules/wpsalesforceproSettings/actions/actions.php:42
+#: modules/wpsugarproSettings/actions/actions.php:42
+#: modules/wpsuiteproSettings/actions/actions.php:33
+#: modules/wptigerproSettings/actions/actions.php:46
+#: modules/wpzohoproSettings/actions/actions.php:43
+msgid "Smack Email"
+msgstr "Smack EMail"
+
+#: modules/wpsalesforceproSettings/actions/actions.php:43
+#: modules/wpsugarproSettings/actions/actions.php:43
+#: modules/wpsuiteproSettings/actions/actions.php:34
+#: modules/wptigerproSettings/actions/actions.php:47
+#: modules/wpzohoproSettings/actions/actions.php:44
+msgid "Email id"
+msgstr "e-mail identificativo utente"
+
+#: modules/wpsalesforceproSettings/actions/actions.php:44
+#: modules/wpsugarproSettings/actions/actions.php:44
+#: modules/wpsuiteproSettings/actions/actions.php:35
+#: modules/wptigerproSettings/actions/actions.php:48
+#: modules/wpzohoproSettings/actions/actions.php:45
+msgid "Emailcondition"
+msgstr "Email Condizione"
+
+#: modules/wpsalesforceproSettings/actions/actions.php:45
+#: modules/wpsalesforceproSettings/templates/view.php:206
+#: modules/wpsugarproSettings/actions/actions.php:45
+#: modules/wpsugarproSettings/templates/view.php:192
+#: modules/wpsuiteproSettings/actions/actions.php:36
+#: modules/wptigerproSettings/actions/actions.php:49
+#: modules/wptigerproSettings/templates/view.php:188
+#: modules/wpzohoproSettings/actions/actions.php:46
+#: modules/wpzohoproSettings/templates/view.php:166
+msgid "Debug Mode"
+msgstr "Modalità Di Debug"
+
+#: modules/wpsalesforceproSettings/templates/view.php:28
+msgid "Salesforce CRM Settings"
+msgstr "Impostazioni CRM Salesforce"
+
+#: modules/wpsalesforceproSettings/templates/view.php:37
+#: modules/wpsugarproSettings/templates/view.php:20
+#: modules/wptigerproSettings/templates/view.php:21
+#: modules/wpzohoproSettings/templates/view.php:17
+msgid "Select Plugin"
+msgstr "Seleziona Plugin"
+
+#: modules/wpsalesforceproSettings/templates/view.php:51
+#: modules/wpsugarproSettings/templates/view.php:33
+#: modules/wptigerproSettings/templates/view.php:34
+#: modules/wpzohoproSettings/templates/view.php:30
+msgid "Choose your CRM."
+msgstr "Scegli il tuo CRM."
+
+#: modules/wpsalesforceproSettings/templates/view.php:74
+msgid "This the key generated in API under consumer key."
+msgstr "Questa la chiave generata in API sotto chiave consumer."
+
+#: modules/wpsalesforceproSettings/templates/view.php:94
+msgid "This the secret code generated in API under consumer secret."
+msgstr "Questo il codice segreto generato nelle API sotto segreto consumatore."
+
+#: modules/wpsalesforceproSettings/templates/view.php:113
+msgid "In most cases the url of this settings page is used."
+msgstr ""
+"Nella maggior parte dei casi si utilizza l'URL della pagina delle "
+"impostazioni."
+
+#: modules/wpsalesforceproSettings/templates/view.php:141
+#: modules/wpsugarproSettings/templates/view.php:129
+#: modules/wptigerproSettings/templates/view.php:125
+#: modules/wpzohoproSettings/templates/view.php:99
+msgid "Email Notification"
+msgstr "Email di notifica"
+
+#: modules/wpsalesforceproSettings/templates/view.php:145
+#: modules/wpsugarproSettings/templates/view.php:132
+#: modules/wptigerproSettings/templates/view.php:129
+#: modules/wpzohoproSettings/templates/view.php:103
+msgid "Email All Captured Data"
+msgstr "Invia tutti i dati catturati"
+
+#: modules/wpsalesforceproSettings/templates/view.php:159
+#: modules/wpsugarproSettings/templates/view.php:146
+#: modules/wptigerproSettings/templates/view.php:143
+#: modules/wpzohoproSettings/templates/view.php:117
+msgid "(Get emails for each form data feed with details)."
+msgstr "(Mandami una mail per ogni feed dati del modulo con i dettagli)."
+
+#: modules/wpsalesforceproSettings/templates/view.php:167
+#: modules/wpsugarproSettings/templates/view.php:154
+#: modules/wptigerproSettings/templates/view.php:152
+msgid "Email Id"
+msgstr "E-Mail Identificativo Utente"
+
+#: modules/wpsalesforceproSettings/templates/view.php:178
+#: modules/wpsugarproSettings/templates/view.php:165
+#: modules/wptigerproSettings/templates/view.php:163
+#: modules/wpzohoproSettings/templates/view.php:136
+msgid ""
+"(by default admin enable to get mail alerts, you can add one more email "
+"here)."
+msgstr ""
+"(da admin predefinita abilita per ricevere e-mail, è possibile aggiungere un "
+"altro indirizzo email)."
+
+#: modules/wpsalesforceproSettings/templates/view.php:199
+#: modules/wpsugarproSettings/templates/view.php:186
+#: modules/wptigerproSettings/templates/view.php:182
+#: modules/wpzohoproSettings/templates/view.php:158
+msgid "Both"
+msgstr "Entrambi"
+
+#: modules/wpsalesforceproSettings/templates/view.php:212
+#: modules/wpsugarproSettings/templates/view.php:196
+#: modules/wptigerproSettings/templates/view.php:193
+#: modules/wpzohoproSettings/templates/view.php:171
+msgid "Enable Debug Mode"
+msgstr "Attiva modalità di debug"
+
+#: modules/wpsalesforceproSettings/templates/view.php:226
+#: modules/wpsugarproSettings/templates/view.php:210
+#: modules/wptigerproSettings/templates/view.php:207
+#: modules/wpzohoproSettings/templates/view.php:185
+msgid ""
+"(Debug Mode is No to get Error_reporting is zero and also ini_set is Off)."
+msgstr ""
+"(Debug Mode è No per ottenere error_reporting è pari a zero e anche ini_set "
+"è disattivata)."
+
+#: modules/wpsalesforceproSettings/templates/view.php:248
+msgid "Authenticate"
+msgstr "Autenticare"
+
+#: modules/wpsalesforceproSettings/templates/view.php:250
+#: modules/wpsugarproSettings/templates/view.php:226
+#: modules/wptigerproSettings/templates/view.php:228
+#: modules/wpzohoproSettings/templates/view.php:206
+msgid "Fetch Lead Fields"
+msgstr "Fetch campi piombo"
+
+#: modules/wpsalesforceproSettings/templates/view.php:252
+#: modules/wpsugarproSettings/templates/view.php:229
+#: modules/wptigerproSettings/templates/view.php:230
+#: modules/wpzohoproSettings/templates/view.php:209
+msgid "Fetch Contact Fields"
+msgstr "Fetch Contact Fields"
+
+#: modules/wpsalesforceproSettings/templates/view.php:254
+#: modules/wpsugarproSettings/templates/view.php:231
+#: modules/wptigerproSettings/templates/view.php:232
+#: modules/wpzohoproSettings/templates/view.php:211
+msgid "Fetch CRM Users"
+msgstr "Fetch utenti CRM"
+
+#: modules/wpsalesforceproSettings/templates/view.php:259
+msgid ""
+"Note : The included API add-on supports only Enterprise edition, Unlimited "
+"edition and Developer edition of sales force."
+msgstr ""
+"Nota: L'API incluso add-on supporta solo Enterprise Edition, Unlimited "
+"Edition e Developer Edition di forza di vendita."
+
+#: modules/wpsugarproSettings/actions/actions.php:37
+#: modules/wpsugarproSettings/templates/view.php:44
+msgid "Sugar Host Address"
+msgstr "Zucchero Host Indirizzo"
+
+#: modules/wpsugarproSettings/actions/actions.php:38
+#: modules/wpsugarproSettings/templates/view.php:68
+msgid "Sugar Username"
+msgstr "Sugar Nome utente"
+
+#: modules/wpsugarproSettings/actions/actions.php:39
+#: modules/wpsugarproSettings/templates/view.php:88
+msgid "Sugar Password"
+msgstr "Sugar password"
+
+#: modules/wpsugarproSettings/templates/view.php:10
+msgid "Sugar CRM Settings"
+msgstr "Impostazioni CRM Sugar"
+
+#: modules/wpsugarproSettings/templates/view.php:57
+#: modules/wptigerproSettings/templates/view.php:58
+msgid "This is the full URL path to access your crm via browser."
+msgstr ""
+"Questo è il percorso URL completo per accedere al vostro CRM tramite browser."
+
+#: modules/wpsugarproSettings/templates/view.php:80
+#: modules/wptigerproSettings/templates/view.php:77
+msgid ""
+"This is CRM admin in general, but you can also use other users with admin "
+"privilege."
+msgstr ""
+"Questo è admin CRM in generale, ma è possibile utilizzare anche altri utenti "
+"con privilegi di amministrazione."
+
+#: modules/wpsugarproSettings/templates/view.php:99
+#: modules/wpzohoproSettings/templates/view.php:71
+msgid "Password for the username as given in CRM username as above."
+msgstr ""
+"Password per il nome utente, come indicato nel nome utente CRM come sopra."
+
+#: modules/wpsuiteproSettings/actions/actions.php:28
+msgid "Suite Host Address"
+msgstr "Suite Host Indirizzo"
+
+#: modules/wpsuiteproSettings/actions/actions.php:29
+msgid "Suite Username"
+msgstr "Suite Nome utente"
+
+#: modules/wpsuiteproSettings/actions/actions.php:30
+msgid "Suite Password"
+msgstr "Suite password"
+
+#: modules/wpsuiteproSettings/actions/actions.php:32
+msgid "User Capture"
+msgstr "Utente Cattura"
+
+#: modules/wptigerproSettings/actions/actions.php:41
+msgid "Vtiger Url"
+msgstr "vtiger Url"
+
+#: modules/wptigerproSettings/actions/actions.php:42
+msgid "Vtiger User Name"
+msgstr "Vtiger Nome utente"
+
+#: modules/wptigerproSettings/actions/actions.php:43
+#: modules/wptigerproSettings/templates/view.php:85
+msgid "Vtiger Access Key"
+msgstr "Vtiger Accessibilità"
+
+#: modules/wptigerproSettings/templates/view.php:11
+msgid "VTiger CRM Settings"
+msgstr "Impostazioni CRM vTiger"
+
+#: modules/wptigerproSettings/templates/view.php:46
+msgid "Vtiger Host Address"
+msgstr "Vtiger Host Indirizzo"
+
+#: modules/wptigerproSettings/templates/view.php:66
+msgid "Vtiger Username"
+msgstr "Vtiger Nome utente"
+
+#: modules/wptigerproSettings/templates/view.php:96
+msgid ""
+"Access key taken from My Preferences for the username as given in CRM "
+"username as above."
+msgstr ""
+"Chiave di accesso tratto da Le mie preferenze per il nome utente, come "
+"indicato nel nome utente CRM come sopra."
+
+#: modules/wptigerproSettings/templates/view.php:260
+msgid "Please Wait..."
+msgstr "Attendere Prego ..."
+
+#: modules/wpzohoproSettings/actions/actions.php:39
+#: modules/wpzohoproSettings/templates/view.php:41
+msgid "Zoho Username"
+msgstr "Zoho Nome utente"
+
+#: modules/wpzohoproSettings/actions/actions.php:40
+#: modules/wpzohoproSettings/templates/view.php:60
+msgid "Zoho Password"
+msgstr "Zoho password"
+
+#: modules/wpzohoproSettings/templates/view.php:7
+msgid "Zoho CRM Settings"
+msgstr "Impostazioni CRM Zoho"
+
+#: modules/wpzohoproSettings/templates/view.php:52
+msgid "This is email id used to login with zoho account."
+msgstr ""
+"Questo è id-mail utilizzato per effettuare il login con l'account Zoho."
+
+#: templates/menu.php:17
+msgid "Manage ShortCodes"
+msgstr "Gestisci Shortcodes"
+
+#: templates/menu.php:23
+msgid "Sync WP Users"
+msgstr "Gli utenti Sync WP"
+
+#: templates/menu.php:27
+msgid "Captcha Settings"
+msgstr "Impostazioni Captcha"
+
+#: templates/menu.php:30
+msgid "Settings"
+msgstr "Impostazioni"
