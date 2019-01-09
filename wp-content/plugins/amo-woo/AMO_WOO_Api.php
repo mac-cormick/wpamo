@@ -46,14 +46,21 @@ class AMO_WOO_Api {
 		];
 	}
 
+	/**
+	 * @return bool
+	 */
 	public function auth()
 	{
 		$user = $this->amo_woo_get_user();
-		$subdomain = $this->subdomain;
-
 		$link = '/private/api/auth.php?type=json';
 
-		return $this->amo_woo_curl_post($link, $user);
+		$result = $this->amo_woo_curl_post($link, $user);
+
+		if (!empty($result['response']['auth'])) {
+			return true;
+		} else {
+			return false;
+		}
 	}
 
 	/**
@@ -113,7 +120,6 @@ class AMO_WOO_Api {
 		curl_setopt($curl,CURLOPT_SSL_VERIFYPEER, 0);
 		curl_setopt($curl,CURLOPT_SSL_VERIFYHOST, 0);
 		$out=curl_exec($curl);
-		file_put_contents($_SERVER['DOCUMENT_ROOT'] . '/logs.html', '<b>out</b><br><pre>' . var_export($out, true) . '<pre>', FILE_APPEND);
 		$code=curl_getinfo($curl,CURLINFO_HTTP_CODE);
 		curl_close($curl);
 
@@ -150,6 +156,7 @@ class AMO_WOO_Api {
 		}
 
 		$response = json_decode($out, true);
+		file_put_contents($_SERVER['DOCUMENT_ROOT'] . '/logs.html', '<b>response</b><br><pre>' . var_export($response, true) . '<pre>', FILE_APPEND);
 
 		return $response;
 	}
@@ -158,7 +165,7 @@ class AMO_WOO_Api {
 	 * @param Exception $exception
 	 * @return array
 	 */
-	private function amo_woo_handle_exception(\Exception $exception)
+	public function amo_woo_handle_exception(\Exception $exception)
 	{
 		file_put_contents($_SERVER['DOCUMENT_ROOT'] . '/logs.html', '<b>exception</b><br><pre>' . var_export($exception->getMessage(), true) . '<pre>', FILE_APPEND);
 		return [
@@ -169,7 +176,7 @@ class AMO_WOO_Api {
 	/**
 	 * @param string $entity
 	 * @param array $data
-	 * @return array
+	 * @return mixed
 	 */
 	public function amo_woo_add_entity($entity, array $data = [])
 	{
@@ -187,7 +194,13 @@ class AMO_WOO_Api {
 				'add' => [$data],
 			];
 
-			return $this->amo_woo_curl_post($url, $post_data);
+			$result = $this->amo_woo_curl_post($url, $post_data);
+
+			if (!empty($items_data = $result['_embedded']['items'])) {
+				return $items_data;
+			} else {
+				return false;
+			}
 
 		} catch (Exception $exception) {
 			return $this->amo_woo_handle_exception($exception);

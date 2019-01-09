@@ -15,4 +15,6 @@ require __DIR__ . '/functions.php';
 //	require __DIR__ . '/AMO_WOO_Api.php';
 //}, 5);
 
-add_action('woocommerce_thankyou', 'amo_woo_thankyou');
+//add_action('woocommerce_thankyou', 'amo_woo_thankyou');
+
+add_action( 'woocommerce_order_details_after_order_table', 'amo_woo_order_details_after_order_table' );
