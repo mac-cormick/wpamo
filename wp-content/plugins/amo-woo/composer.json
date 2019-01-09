@@ -1,0 +1,12 @@
+{
+    "name": "amolyakov/amo_woo",
+    "require": {
+        "guzzlehttp/guzzle": "^6.3"
+    },
+    "authors": [
+        {
+            "name": "amolyakov",
+            "email": "mac-cormick@yandex.ru"
+        }
+    ]
+}

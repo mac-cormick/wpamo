@@ -1,0 +1,2 @@
+2018-12-23T17:42:35+00:00 CRITICAL Out of memory (allocated 14680064) (tried to allocate 102400 bytes) in D:\OSPanel\domains\wpamo\wp-includes\pomo\streams.php on line 110
+
